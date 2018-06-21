@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main(){
+  int r, c;
+  scanf("%d %d", &r, &c);
+
+  int x[r][c];
+
+  int i, j;
+  
+  for(i = 0;i < r;i++){
+    for(j = 0;j < c;j++){
+      scanf("%d", &x[r][c]);
+    }
+  }
+
+  int n, m;
+  for(n = 0;n < r;i++){
+    for(m = 0;m < c;j++){
+      printf("%d", x[n][m]);
+    }
+    printf("\n");
+  }
+  
+  
+  return 0;
+}
